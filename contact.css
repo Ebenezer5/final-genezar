@@ -1,0 +1,106 @@
+body{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	background-color: black;
+  	font-family: 'Times New Roman';
+}
+
+.header .logo img{
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
+}
+
+.header{
+  text-align: center;
+  border-bottom: 1px solid rgb(170, 169, 169);
+}
+
+.header a{
+  text-decoration: none;
+  text-transform: capitalize;
+  font-size: 17px;
+  color: white;
+  padding: 13px;
+  transition-duration: .5s;
+}
+
+.header a:hover{
+	color: rgb(168, 3, 3);
+}
+
+.chat{
+    color: #000;
+    text-transform: capitalize;
+    text-align: center;
+    padding-top: 12px;
+	color: #fff;
+}
+
+.form-container{
+  padding: 15px;
+  margin: 20px; 
+	
+}
+
+.extend input{
+	width: 242px;
+}
+
+input{
+  display: flex;
+  margin-bottom: 15px;
+  /* width: 238px; */
+}
+
+form{
+  padding-left: 34rem;
+}
+
+.two{
+  display: flex;
+  gap: 63px;
+}
+
+.two button{
+	text-transform: capitalize;
+	font-size: 13px;
+	color: rgb(255, 253, 253);
+	padding: 12px 26px 12px 26px;
+	transition-duration: .5s;
+	border-radius: 19px;
+	background-color: rgb(122, 3, 3);
+}
+
+.two button:hover{
+	color: rgb(255, 255, 255);
+	background-color: #1a1818;
+}
+@media only screen and (max-width: 400px) {
+	body{
+		background-color: #030303;
+		color: #fff;
+	}
+
+	.header a {
+	padding: 3px;
+	font-size: 14px;
+	}
+	.header .logo img {
+	width: 50px;
+	height: 50px;
+	}
+
+	form{
+		padding: 0px;
+		padding-left: 35px;
+	}
+
+	.extend input{
+		width: 227px;
+	}
+	.two{
+		gap: 50px;
+	}
+}

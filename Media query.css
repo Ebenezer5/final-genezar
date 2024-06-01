@@ -1,0 +1,53 @@
+
+
+
+
+@media only screen and (max-width: 400px){
+    .header a{
+      padding: 3px;
+      font-size: 14px;
+      
+    }
+  
+    .header .logo img{
+      width: 50px;
+      height: 50px;
+    }
+  
+    .About-in-home p{
+      width: 340px;
+    }
+  
+  
+    
+    .calendar{
+      gap: 5px;
+      padding: 2px;
+  
+    }
+  
+    .info{
+      margin-left: 10px;
+  
+    }
+  
+    .Semester-course h3{
+      font-family: 'Times New Roman', Times, serif;
+      
+    }
+  
+    .Semester-course p{
+      font-size: 22px;
+    }
+    
+  
+    .testimonial{
+      display: flex;
+      flex-direction: column;
+      margin-left: -9px;
+    }
+  
+  
+  
+  }
+  

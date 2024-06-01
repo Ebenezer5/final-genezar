@@ -1,0 +1,386 @@
+body{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	background-color: black;
+  font-family: 'Times New Roman';
+}
+
+
+.header .logo img{
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
+}
+
+.header{
+  text-align: center;
+  border-bottom: 1px solid rgb(170, 169, 169);
+}
+
+.header a{
+  text-decoration: none;
+  text-transform: capitalize;
+  font-size: 17px;
+  color: white;
+  padding: 13px;
+  transition-duration: .5s;
+}
+
+.header a:hover{
+	color: rgb(168, 3, 3);
+}
+
+
+ html, body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: "Helvetica", sans-serif;
+  background-color: #030303;
+  color: #fff;
+}
+
+img {
+  max-width: 100%;
+}
+
+.slider-container{
+  height: 100%;
+  width: 100%;
+  position: relative;
+  overflow: hidden; 
+  text-align: center;
+  background-color: #050505;
+}
+
+.menu {
+  position: absolute;
+  left: 0;
+  z-index: 900;
+  width: 100%;
+  bottom: 0;
+}
+
+.menu label {
+  cursor: pointer;
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  background: #da0202;
+  border-radius: 50px;
+  margin: 0 .2em 1em;
+  
+}
+
+.slider {
+  width: 100%;
+  margin: 0 auto;
+  position: relative;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+}
+
+.slider img {
+  width: 100%;
+  height: 550px;
+  display: none;
+}
+
+.slider-controls {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.slider-controls button {
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  border: none;
+  background-color: #a30303;
+  margin: 0 5px;
+  cursor: pointer;
+}
+
+.slider-controls button.active {
+  background-color: #fffafa;
+}
+ 
+.move{
+  text-align: left;
+}
+
+.name h2{
+  text-transform: capitalize;
+  padding-left: 12px;
+}
+
+span{
+  color: rgba(168, 2, 2, 0.938);
+}
+
+.About-in-home{
+	width: 100%;
+	padding: 20px;
+
+}
+
+.About-in-home h3{
+  color: #9c0000;
+  text-transform: capitalize;
+  font-size: 29px;
+}
+.About-in-home p{
+  padding-bottom: 17px;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.About-in-home .about img{
+  width: 300px;
+  height: 300px;
+  border-radius: 150px;
+}
+.about a{
+  text-decoration: none;
+  background-color: rgb(122, 3, 3);
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 20px;
+  padding: 12px 26px 12px 26px;
+  border-radius: 19px;
+  transition: .5s;
+}
+
+.about a:hover{
+  background-color: rgb(43, 40, 40);
+  transition: .5s;
+}
+
+.Semester-course h3{
+  font-size: 50px;
+  text-align: center;
+  font-weight: bold;
+  text-transform: capitalize;
+  color: rgb(194, 0, 0);
+}
+
+.Semester-course p{
+  text-align: center;
+  font-size: 22px;
+}
+.calendar{
+  background-color: #fff;
+  display: flex;
+  padding-left: 10px;
+  padding-top: 40px;
+  padding-bottom: 70px;
+  gap: 10px;
+  padding: 4px;
+}
+
+.info b{
+  color: #212121;
+  font-weight: bold;
+}
+
+.info p{
+  color: rgb(192, 0, 0);
+  text-transform: capitalize;
+  padding-top: 20px;
+}
+
+.people-testimonial h3{
+  font-size: 50px;
+  padding-top: 40px;
+  text-align: center;
+  font-weight: bold;
+  text-transform: capitalize;
+  color: rgb(194, 2, 2);
+}
+
+.testimonial{
+  display: flex;
+  flex-direction: column;
+  padding-left: 15px;
+  padding-top: 20px;
+  padding-bottom: 14px;
+  width: 100%;
+}
+
+.content{
+  width: 100%;
+}
+
+:root {
+  --surface-color: #fff;
+  --curve: 40;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Noto Sans JP', sans-serif;
+  background-color: #000000;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+  margin: 4rem 5vw;
+  padding: 0;
+  list-style-type: none;
+}
+
+.card {
+  position: relative;
+  display: block;
+  height: 100%;  
+  border-radius: calc(var(--curve) * 1px);
+  overflow: hidden;
+  text-decoration: none;
+  width: 85%;
+}
+
+.card__image {      
+  width: 100%;
+  height: auto;
+}
+
+.card__overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;      
+  border-radius: calc(var(--curve) * 1px);    
+  background-color: var(--surface-color);      
+  transform: translateY(100%);
+  transition: .2s ease-in-out;
+}
+
+.card:hover .card__overlay {
+  transform: translateY(0);
+  padding-bottom: 70px;
+}
+
+.card__header {
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 2em;
+  padding: 2em;
+  border-radius: calc(var(--curve) * 1px) 0 0 0;    
+  background-color: var(--surface-color);
+  transform: translateY(-100%);
+  transition: .2s ease-in-out;
+}
+
+.card__arc {
+  width: 80px;
+  height: 80px;
+  position: absolute;
+  bottom: 100%;
+  right: 0;      
+  z-index: 1;
+}
+      
+.card:hover .card__header {
+  transform: translateY(0);
+}
+
+.card__thumb {
+  flex-shrink: 0;
+  width: 50px;
+  height: 50px;      
+  border-radius: 50%;      
+}
+
+.card__title {
+  font-size: 1em;
+  margin: 0 0 .3em;
+  color: rgb(168, 3, 3);
+}
+
+.card__description {
+  padding: 0 2em 2em;
+  margin: 0;
+  color: #212121;
+  font-family: "MockFlowFont";   
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+  overflow: hidden;
+} 
+
+.footer-section{
+  text-align: center;
+  margin-top: 92px;
+  background-color: #030303;
+  color: #fff;
+  border-top: 2px solid rgb(255, 255, 255, .2);
+}
+
+.footer-section, .copyright{
+    padding-bottom: 10px;
+}
+
+.social-icons img{
+  color: #fff;
+  width: 29px;
+  height: 29px;
+  border-radius: 50%;
+
+}
+
+.social-icons{
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+
+
+@media only screen and (max-width: 400px) {
+  .header a {
+  padding: 3px;
+  font-size: 14px;
+  }
+  .header .logo img {
+  width: 50px;
+  height: 50px;
+  }
+  .About-in-home p {
+  width: 340px;
+  }
+  .calendar {
+  gap: 5px;
+  padding: 2px;
+  display: flex;
+  flex-direction: column;
+  }
+  .info {
+  margin-left: 10px;
+
+  }
+  .Semester-course h3 {
+  font-family: 'Times New Roman', Times, serif;
+  }
+  .Semester-course p {
+  font-size: 22px;
+  }
+  .testimonial {
+  display: flex;
+  flex-direction: column;
+  margin-left: -9px;
+  padding-left: 18px;
+  }
+}
+
+
+
+
