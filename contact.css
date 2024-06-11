@@ -41,11 +41,15 @@ body{
 .form-container{
   padding: 15px;
   margin: 20px; 
-	
 }
 
 .extend input{
 	width: 242px;
+	border-radius: 10px;
+}
+
+textarea{
+	border-radius: 10px;
 }
 
 input{
@@ -55,12 +59,14 @@ input{
 }
 
 form{
-  padding-left: 34rem;
+  padding-left: 32rem;
 }
 
 .two{
   display: flex;
-  gap: 63px;
+  margin-left: 44px;
+  margin-top: 7px;
+
 }
 
 .two button{
@@ -77,6 +83,8 @@ form{
 	color: rgb(255, 255, 255);
 	background-color: #1a1818;
 }
+
+
 @media only screen and (max-width: 400px) {
 	body{
 		background-color: #030303;
@@ -84,9 +92,11 @@ form{
 	}
 
 	.header a {
-	padding: 3px;
-	font-size: 14px;
-	}
+		padding: 3px;
+		font-size: 22px;
+		display: block;
+		}
+
 	.header .logo img {
 	width: 50px;
 	height: 50px;
@@ -94,7 +104,7 @@ form{
 
 	form{
 		padding: 0px;
-		padding-left: 35px;
+		padding-left: 28px;
 	}
 
 	.extend input{
@@ -103,4 +113,65 @@ form{
 	.two{
 		gap: 50px;
 	}
+}
+
+
+@media only screen and (min-width: 400px) and (max-width: 800px) {
+	body{
+		background-color: #030303;
+		color: #fff;
+	}
+	
+	.header a {
+		padding: 3px;
+		font-size: 14px;
+		display: block;
+		}
+
+	.header a {
+		padding: 3px;
+		font-size: 14px;
+		display: block;
+		}
+
+	.header a {
+	padding: 3px;
+	font-size: 14px;
+	}
+
+	.header .logo img {
+	width: 50px;
+	height: 50px;
+	}
+
+	form{
+		padding: 0px;
+		padding-left: 49px;
+	}
+
+	.extend input{
+		width: 227px;
+	}
+	.two{
+		gap: 50px;
+	}
+}
+
+@media (min-width: 700px) and (max-width: 1280px) {
+	form{
+		padding: 0px;
+		padding-left: 247px;
+	}
+
+
+}
+
+
+@media (min-width: 800px) and (max-width: 1980px) {
+	form{
+		padding: 0px;
+		padding-left:363px;
+	}
+
+
 }
