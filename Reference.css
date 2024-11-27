@@ -36,7 +36,7 @@ body{
   display: flex;
   margin-left: 20px;
   margin-top: 50px;
-  gap: 128px;
+  gap: 118px;
 }
 
 .big-men h3{
@@ -54,6 +54,7 @@ body{
   padding-left: 30px;
   padding-top: 25px;
   color: #fff;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .doc img{
