@@ -130,13 +130,14 @@ span{
 }
 
 .About-in-home h3{
-  color: #9c0000;
-  text-transform: capitalize;
-  font-size: 29px;
+  color: #fcf3f3;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  text-transform: uppercase;
+  font-size: 49px;
 }
 .About-in-home p{
   padding-bottom: 17px;
-  font-family: 'Times New Roman', Times, serif;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .About-in-home .about img{
@@ -151,12 +152,13 @@ span{
   text-transform: uppercase;
   font-size: 20px;
   padding: 12px 26px 12px 26px;
-  border-radius: 19px;
+  border-radius: 10px;
   transition: .5s;
 }
 
 .about a:hover{
-  background-color: rgb(43, 40, 40);
+  background-color: rgb(253, 253, 253);
+  color: #a30303;
   transition: .5s;
 }
 
@@ -164,8 +166,8 @@ span{
   font-size: 50px;
   text-align: center;
   font-weight: bold;
-  text-transform: capitalize;
-  color: rgb(168, 1, 1);
+  text-transform: uppercase;
+  color: rgb(255, 249, 249);
 }
 
 .Semester-course p{
@@ -173,49 +175,32 @@ span{
   font-size: 22px;
   font-weight: bold;
 }
-.calendar{
-  background-color: #000;
-  display: flex;
-  padding-left: 10px;
-  padding-top: 40px;
-  padding-bottom: 70px;
-  gap: 10px;
-  padding: 4px;
-  border-bottom: solid white 1px;
-}
-
-.info b{
-  color: #fff;
-  font-weight: bolder;
-}
-
-.info p{
-  color: rgb(255, 255, 255);
-  text-transform: capitalize; 
-  padding-top: 20px;
-  font-weight: lighter;
-}
 
 .people-testimonial h3{
   font-size: 50px;
   padding-top: 40px;
   text-align: center;
   font-weight: bold;
-  text-transform: capitalize;
-  color: rgb(194, 2, 2);
+  text-transform: uppercase;
+  color: rgb(255, 243, 243);
 }
 
 .testimonial{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
   display: flex;
   flex-direction: column;
   padding-left: 15px;
-  padding-top: 20px;
+  padding-top: 2px;
   padding-bottom: 14px;
   width: 100%;
 }
 
 .content{
   width: 100%;
+}
+
+.flesh{
+  background-color: #0f0e0e;
 }
 
 :root {
@@ -321,6 +306,8 @@ body {
   -webkit-line-clamp: 3;
   overflow: hidden;
 } 
+
+
 
 .footer-section{
   text-align: center;
